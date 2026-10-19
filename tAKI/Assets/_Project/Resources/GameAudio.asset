@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c474912c12694a1e8ad8c11bc8123e13, type: 3}
+  m_Name: GameAudio
+  m_EditorClassIdentifier: 
+  backgroundMusic: {fileID: 8300000, guid: d2ee240eef75469da282d2e2e813de72, type: 3}
+  pickup: {fileID: 8300000, guid: f66d74d00494456f86d3299ef62166c0, type: 3}
+  akiBoost: {fileID: 8300000, guid: aa689deb00814220ace0d27f2537fd2b, type: 3}
+  hit: {fileID: 8300000, guid: f4492198591445a3856e851183ab5960, type: 3}
+  clear: {fileID: 8300000, guid: 333f63550ba6418181c097de88bdeae3, type: 3}
+  defaultMasterVolume: 0.5
+  musicVolume: 0.6
+  effectsVolume: 0.8
+  clearVolume: 0.8

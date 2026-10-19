@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5abb10818d3f8164e9dcbca421f77133, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  horizontalSpeed: 18
+  gravity: 3.5
+  verticalAssist: 1
+  maxRiseSpeed: 20
+  maxStoredRiseSpeed: 25
+  maxFallSpeed: 10
+  waterfallWidth: 28
+  goalHeight: 500
+  displayedGoalMeters: 1000
+  items:
+  - {fileID: 11400000, guid: 6c6811660e92d5f4698b151928fb8f15, type: 2}
+  - {fileID: 11400000, guid: cf0bb1e098055934d8155c9c94d2f7be, type: 2}
+  - {fileID: 11400000, guid: 92fd63c0f77069a4fa126928f3cef8ae, type: 2}
+  setBonus: 100
+  akiInvulnerabilitySeconds: 1
+  itemSpawnDistance: 4
+  itemTimedSpawnInterval: 0.5
+  itemFallSpeedMultiplierMin: 1
+  itemFallSpeedMultiplierMax: 3
+  itemOffscreenMargin: 2
+  spawnAhead: 18
+  obstaclePrefab: {fileID: 2852934865939719341, guid: 18c246e4395c0304ebad0b43342a98b0,
+    type: 3}
+  obstacleFallSpeed: 3
+  middleAt: 0.3
+  finalAt: 0.7
+  earlyObstacleDistance: 30
+  middleObstacleDistance: 8
+  finalObstacleDistance: 2
+  hitFallSpeed: 0
+  invulnerabilitySeconds: 1

@@ -1,0 +1,17 @@
+# Local agent settings and credentials
+/.agents/
+/.codex/
+/.aws/
+.env
+.env.*
+!.env.example
+
+# Third-party audio is restored locally; keep its Unity .meta files.
+*.[mM][pP]3
+
+# Local archives and operating-system files
+*.zip
+*.7z
+.DS_Store
+Thumbs.db
+Desktop.ini
